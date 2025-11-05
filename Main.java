@@ -8,7 +8,7 @@
  * The results are saved to results.csv and can be visualized with Chart.js.
  * 
  * @author Anish Konduri
- * @version 1.2
+ * @version 1.3
  */
 
 import java.io.File;
@@ -61,7 +61,7 @@ public class Main {
         double startValue = 100.0;
 
         try {
-            FileWriter writer = new FileWriter("results.csv");
+            FileWriter writer = new FileWriter("web/results.csv");
             writer.write("Asset,Year,Low,Expected,High\n");
 
             for (Vehicle v : vehicles) {
