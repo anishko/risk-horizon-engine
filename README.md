@@ -14,7 +14,7 @@ Process:
 ```assets.csv → run Main.java → generates results.csv → open web/index.html to view the chart```
 
 ---
-
+(If you use Python, ignore these steps)
 ## How to Run
 
 ### Step 1: Make sure Java is installed
